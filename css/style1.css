@@ -1,0 +1,159 @@
+img {
+	width: 100px;
+	height: 100px;
+}
+
+.header {
+	width: 100%;
+	height: 130px;
+	background-color: rgb(247, 247, 247);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+
+	margin-bottom: 15px;
+}
+/*----------Кнопки меню-----------------------------*/
+
+.buttons-header {
+	width: 100%;
+	height: 40px;
+
+	display:block;
+	float: bottom;
+
+	background-color: black;
+
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.flex-buttons {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	
+	
+
+}
+
+.buttons {
+	width: 15%;
+	height: 100%;
+	display: block;
+
+	text-align: center;
+	
+	
+}
+
+.buttons > a {
+	width: 100%;
+	height: 40px;
+
+	display: block;
+
+	text-decoration: none;
+	color: white;
+
+	
+}
+
+.buttons > a:hover {
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+}
+
+.buttons > a:active {
+	border: 0;
+}
+
+
+/*----------Замарочки с флексами(content)-----------*/
+.flex-container-a {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	width: 100%;
+	min-height: 300px;
+}
+
+.flex-blocks-a {
+	width: 32.4%;
+	height: 300px;
+
+	background-color: rgb(247, 247, 247);
+
+}
+
+.flex-blocks-b {
+	width: 32.4%;
+	height: 300px;
+
+	background-color: rgb(247, 247, 247);
+}
+
+.flex-blocks-c {
+	width: 32.4%;
+	min-height: 930px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.flex-blocks-in-c {
+	width: 100%;
+	height: 300px;
+
+	background-color: rgb(247, 247, 247);
+}
+/*------------------------------------*/
+
+.flex-container-b {
+	width: 66.5%;
+	height: 930px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.flex-container-1 {
+	width: 100%;
+	height: 300px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	
+}
+
+.fl-bl {
+	width: 49.2%;
+
+	background-color: rgb(247, 247, 247);
+}
+
+.flex-container-2 {
+	height: 66.2%;
+
+	background-color: rgb(247, 247, 247);
+
+}
+
+
+
